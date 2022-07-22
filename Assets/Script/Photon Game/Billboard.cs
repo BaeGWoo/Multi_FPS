@@ -4,6 +4,9 @@ using UnityEngine;
 using UnityEngine.UI;
 //using Photon.Voice;
 using Photon.Pun;
+using Photon.Realtime;
+
+
 public class Billboard : MonoBehaviourPun
 {
 

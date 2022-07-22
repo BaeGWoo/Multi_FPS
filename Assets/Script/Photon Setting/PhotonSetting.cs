@@ -27,7 +27,7 @@ public class PhotonSetting : MonoBehaviourPunCallbacks
 
     public void LoginFailure(PlayFabError error)
     {
-        Debug.Log("로그인 실패");
+        PopUpManager.Show("Please enter a correct username and password");
     }
 
     public void SignUpSuccess(RegisterPlayFabUserResult result)
