@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 8469862346484320245}
   - component: {fileID: 8809583660841980442}
   - component: {fileID: 8714499118089240189}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Character
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118,7 +118,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 5
   angleSpeed: 100
+  layer:
+    serializedVersion: 2
+    m_Bits: 8
   cam: {fileID: 6259240941357563779}
+  health: 100
+  cursorImage: {fileID: 2800000, guid: 1d78ea13ed0615c4996735add71cbd43, type: 3}
 --- !u!114 &6420886124586810138
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -306,7 +311,7 @@ GameObject:
   - component: {fileID: 7710883308197102246}
   - component: {fileID: 3418990667284770873}
   - component: {fileID: 548614186038002448}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -418,7 +423,7 @@ GameObject:
   - component: {fileID: 2879371651788593724}
   - component: {fileID: 6303142326266352720}
   - component: {fileID: 6233295401154468978}
-  m_Layer: 5
+  m_Layer: 3
   m_Name: NickName Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -497,7 +502,7 @@ GameObject:
   - component: {fileID: 6259240941357563804}
   - component: {fileID: 6259240941357563779}
   - component: {fileID: 6259240941357563778}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
